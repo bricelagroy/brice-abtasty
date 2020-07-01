@@ -7,7 +7,7 @@ $myText = "coucou";
   <script>
     const addItem = () => { 
       let transactionItems = document.getElementById('transaction_items');
-      const clone = transactionItems.firstChild.cloneNode(true);
+      const clone = transactionItems.children[0].cloneNode(true);
       transactionItems.appendChild(clone);
       for(let i = 0; i < transactionItems.childElementCount ; i++) {
         transactionItems.children[i].children[1].setAttribute("name", "item_value_" + i);
