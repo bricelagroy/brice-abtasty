@@ -10,7 +10,7 @@ $myText = "coucou";
       const clone = transactionItems.children[0].cloneNode(true);
       transactionItems.appendChild(clone);
       for(let i = 0; i < transactionItems.childElementCount ; i++) {
-        transactionItems.children[i].children[1].setAttribute("name", "item_value_" + i);
+        transactionItems.children[i].getElementsByClassName('item_value').setAttribute("name", "item_value_" + i);
       }
     };
   </script>
@@ -22,7 +22,7 @@ $myText = "coucou";
   <div id="transaction_items">
     <div> 
       <label>Item Price:</label><br>
-      <input type="text" name="item_value_0" value="0"><br><br>
+      <input type="text" class="item_value" name="item_value_0" value="0"><br><br>
     </div>
   </div>
   <button type="button" onclick="addItem();">Add item</button> 
