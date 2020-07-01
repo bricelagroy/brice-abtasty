@@ -16,12 +16,10 @@ $myText = "coucou";
   </script>
 </head>
 <body>
-  <div>
-  </div>
-<form id="transaction_form" action="/connfirmation.html">
   <div id="action_tracking">
     <button>Useless button (for action tracking)</button>
   </div>
+<form id="transaction_form" action="/confirmation.html">
   <div id="transaction_items">
     <div> 
       <label>Item Price:</label><br>
