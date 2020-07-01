@@ -1,5 +1,5 @@
 <?php
-$myText = "coucou";
+$myText = "Buy";
 ?>
 <html>
 <head>
@@ -27,7 +27,7 @@ $myText = "coucou";
     </div>
   </div>
   <button type="button" onclick="addItem();">Add item</button> 
-  <input type="submit" value="Buy">
+  <input type="submit" value="<?php echo $myText; ?>">
 </form>
 </body>
 </html>
