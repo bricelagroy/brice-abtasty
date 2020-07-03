@@ -3,7 +3,7 @@ $myText = "Buy";
 ?>
 <html>
 <head>
-  <!-- add js tag here -->
+  <script type="text/javascript" src="https://try.abtasty.com/66f086887bc08ea6de5b972880d51252.js"></script>
   <script>
     const addItem = () => { 
       let transactionItems = document.getElementById('transaction_items');
