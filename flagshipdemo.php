@@ -13,6 +13,41 @@ function getVisIpAddr() {
     }
 }
 
+
+function callDecisionAPI($url, $data = null)
+{
+    $url = "https://decision-api.flagship.io/v1/bkiaa64n8mvg0ctk8de0"  . $url;
+    $ch = curl_init();
+
+    $headers = array(
+        'Accept: application/json',
+        'Content-Type: application/json'
+    );
+
+    echo "url " . $url;
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    //  curl_setopt($ch, CURLOPT_VERBOSE, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    if(!is_null($data)){
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    }
+
+    $result = curl_exec($ch);
+    $ch_error = curl_error($ch);
+    if ($ch_error) {
+        echo("cURL Error: $ch_error");
+    } else {
+        echo("curl success: " . $result);
+    }
+    curl_close($ch);
+
+    return json_decode($result);
+}
+
+
 // Store the IP address
 $vis_ip = getVisIPAddr();
 
@@ -29,6 +64,8 @@ $geolocInfo .= 'Longitude: ' . $ipdat->geoplugin_longitude . "\n";
 $geolocInfo .= 'Currency Symbol: ' . $ipdat->geoplugin_currencySymbol . "\n";
 $geolocInfo .= 'Currency Code: ' . $ipdat->geoplugin_currencyCode . "\n";
 $geolocInfo .= 'Timezone: ' . $ipdat->geoplugin_timezone;
+
+callDecisionAPI("/campaigns",  array("visitor_id" => $vis_ip, "context" => array("continent", "Europe")));
 
 ?>
 <html>
