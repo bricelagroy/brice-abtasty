@@ -1,4 +1,6 @@
 <?php
+ini_set("display_errors", "1");
+error_reporting(E_ALL);
 
 $visitorIP = getVisIPAddr();
 
@@ -15,12 +17,15 @@ $coloredText = false;
 $campaigns = $apiResponse['campaigns'];
 foreach ($campaigns as $campaign) {
     $modifications = $campaign['variation']['modifications']['value'];
+    echo "\n" . json_encode($modifications);
     if(isset($modifications)) {
         $textVisible = $modifications['textVisible'] === "true";
         $coloredText = $modifications['coloredText'] === "true";
     }
+    echo "\n" . json_encode($modifications);
 }
 
+echo "ok";
 
 function getVisIpAddr() {
 
@@ -68,7 +73,6 @@ function callDecisionAPI($url, $data = null)
         'Content-Type: application/json'
     );
 
-    echo "url " . $url;
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     //  curl_setopt($ch, CURLOPT_VERBOSE, 1);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -86,6 +90,7 @@ function callDecisionAPI($url, $data = null)
     }
     curl_close($ch);
 
+    echo $result;
     return json_decode($result);
 }
 
