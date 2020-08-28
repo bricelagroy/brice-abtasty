@@ -65,7 +65,7 @@ $geolocInfo .= 'Currency Symbol: ' . $ipdat->geoplugin_currencySymbol . "\n";
 $geolocInfo .= 'Currency Code: ' . $ipdat->geoplugin_currencyCode . "\n";
 $geolocInfo .= 'Timezone: ' . $ipdat->geoplugin_timezone;
 
-callDecisionAPI("/campaigns",  array("visitor_id" => $vis_ip, "context" => array("continent", "Europe")));
+callDecisionAPI("/campaigns",  array("visitor_id" => $vis_ip, "context" => array("continent" => "Europe")));
 
 ?>
 <html>
