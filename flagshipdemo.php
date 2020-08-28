@@ -14,13 +14,13 @@ $apiResponse = callDecisionAPI("/campaigns",  array("visitor_id" => $visitorIP, 
 
 $textVisible = false;
 $coloredText = false;
-$campaigns = $apiResponse['campaigns'];
+$campaigns = $apiResponse->campaigns;
 foreach ($campaigns as $campaign) {
-    $modifications = $campaign['variation']['modifications']['value'];
+    $modifications = $campaign->variation->modifications->value;
     echo "\n" . json_encode($modifications);
     if(isset($modifications)) {
-        $textVisible = $modifications['textVisible'] === "true";
-        $coloredText = $modifications['coloredText'] === "true";
+        $textVisible = $modifications->textVisible === "true";
+        $coloredText = $modifications->coloredText === "true";
     }
     echo "\n" . json_encode($modifications);
 }
