@@ -104,12 +104,12 @@ function callDecisionAPI($url, $data = null)
     <form action="/flagshipdemo.php">
         <label>Change continent:</label>
         <select name="continent" onchange="this.form.submit()">
-            <option value="North America">North America</option>
-            <option value="South America">South America</option>
-            <option value="Asia">Asia</option>
-            <option value="Europe">Europe</option>
-            <option value="Africa">Africa</option>
-            <option value="Oceania">Oceania</option>
+            <option value="Asia" <?php if($continentName === 'Asia') echo 'selected' ?>>Asia</option>
+            <option value="Africa"<?php if($continentName === 'Africa') echo 'selected' ?>>Africa</option>
+            <option value="Europe"<?php if($continentName === 'Europe') echo 'selected' ?>>Europe</option>
+            <option value="North America"<?php if($continentName === 'North America') echo 'selected' ?>>North America</option>
+            <option value="Oceania"<?php if($continentName === 'Oceania') echo 'selected' ?>>Oceania</option>
+            <option value="South America"<?php if($continentName === 'South America') echo 'selected' ?>>South America</option>
         </select>
     </form>
 </div>
