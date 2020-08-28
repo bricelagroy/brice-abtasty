@@ -17,15 +17,11 @@ $coloredText = false;
 $campaigns = $apiResponse->campaigns;
 foreach ($campaigns as $campaign) {
     $modifications = $campaign->variation->modifications->value;
-    echo "\n" . json_encode($modifications);
     if(isset($modifications)) {
-        $textVisible = $modifications->textVisible === "true";
-        $coloredText = $modifications->coloredText === "true";
+        $textVisible = $modifications->textVisible;
+        $coloredText = $modifications->coloredText;
     }
-    echo "\n" . json_encode($modifications);
 }
-
-echo "ok";
 
 function getVisIpAddr() {
 
@@ -90,7 +86,6 @@ function callDecisionAPI($url, $data = null)
     }
     curl_close($ch);
 
-    echo $result;
     return json_decode($result);
 }
 
