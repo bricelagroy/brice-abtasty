@@ -1,0 +1,1265 @@
+{
+  "data": {
+    "261119:sessions:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.5223213366663764,
+            "confidence_interval": [
+              0.4283477917116275,
+              0.6290543630076368
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 103.0,
+            "conversion_rate": 0.52,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261119:sessions:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.5223213366663764,
+            "confidence_interval": [
+              0.4283477917116275,
+              0.6290543630076368
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 103.0,
+            "conversion_rate": 0.52,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "dimension",
+              "value": "variationId"
+            },
+            {
+              "type": "metric",
+              "value": "totalEvents"
+            },
+            {
+              "type": "metric",
+              "value": "uniqueEvents"
+            },
+            {
+              "type": "metric",
+              "value": "eventUserConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventSessionConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventValue"
+            }
+          ],
+          "items": [
+            [
+              "771372",
+              510,
+              504,
+              14.87,
+              2.57,
+              0
+            ],
+            [
+              "0",
+              0,
+              0,
+              null,
+              null,
+              0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z",
+      "last_processed_session_time": "2020-10-15T08:40:56Z"
+    },
+    "261117:sessions:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.0839803156610563,
+            "confidence_interval": [
+              0.049905013627967135,
+              0.1308835731769125
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 16.0,
+            "conversion_rate": 0.08,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "npsGlobal": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "metric",
+              "value": "npsCount"
+            },
+            {
+              "type": "metric",
+              "value": "nps"
+            }
+          ],
+          "items": [
+            [
+              1,
+              100.0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261119:sessions:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 0.5223213366663764,
+              "confidence_interval": [
+                0.4283477917116275,
+                0.6290543630076368
+              ]
+            },
+            "lift": {
+              "median": -98.93077594055735,
+              "confidence_interval": [
+                -99.49301737453831,
+                -77.69962873833165
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 0.5700000000000001
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 103.0,
+            "conversion_rate": 0.52
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261119:visitors:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 2.761948330543915,
+            "confidence_interval": [
+              2.245771459286273,
+              3.3493961149823113
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 93.0,
+            "conversion_rate": 2.74,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261118:visitors:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 0.6389102565082767,
+              "confidence_interval": [
+                0.4070180207883377,
+                0.9450949345494472
+              ]
+            },
+            "lift": {
+              "median": -98.65245765328567,
+              "confidence_interval": [
+                -99.46317704688988,
+                -72.84297734366237
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 0.76
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 21.0,
+            "conversion_rate": 0.62
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123:visitors:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 14.88107040531903,
+            "confidence_interval": [
+              13.710015107822462,
+              16.105143249261285
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 504.0,
+            "conversion_rate": 14.87,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123:sessions:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 2.5729738913732443,
+              "confidence_interval": [
+                2.3588030527597583,
+                2.7993818384522497
+              ]
+            },
+            "lift": {
+              "median": -94.7263348351122,
+              "confidence_interval": [
+                -97.37614342381627,
+                16.610577279559546
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 2.78
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 510.0,
+            "conversion_rate": 2.57
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261117:sessions:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 0.0839803156610563,
+              "confidence_interval": [
+                0.049905013627967135,
+                0.1308835731769125
+              ]
+            },
+            "lift": {
+              "median": -99.82192782726148,
+              "confidence_interval": [
+                -99.9330096265999,
+                -96.62668507577736
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 0.11
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 16.0,
+            "conversion_rate": 0.08
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "sessions": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "dimension",
+              "value": "variationId"
+            },
+            {
+              "type": "metric",
+              "value": "users"
+            },
+            {
+              "type": "metric",
+              "value": "sessions"
+            }
+          ],
+          "items": [
+            [
+              "771372",
+              3390,
+              19846
+            ],
+            [
+              "0",
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z",
+      "last_processed_session_time": "2020-10-15T08:40:56Z"
+    },
+    "261119:visitors:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 2.761948330543915,
+              "confidence_interval": [
+                2.245771459286273,
+                3.3493961149823113
+              ]
+            },
+            "lift": {
+              "median": -94.26263221314247,
+              "confidence_interval": [
+                -97.33686941678137,
+                14.831325976090811
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 2.94
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 93.0,
+            "conversion_rate": 2.74
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261117": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "dimension",
+              "value": "variationId"
+            },
+            {
+              "type": "metric",
+              "value": "totalEvents"
+            },
+            {
+              "type": "metric",
+              "value": "uniqueEvents"
+            },
+            {
+              "type": "metric",
+              "value": "eventUserConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventSessionConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventValue"
+            }
+          ],
+          "items": [
+            [
+              "771372",
+              16,
+              15,
+              0.44,
+              0.08,
+              0
+            ],
+            [
+              "0",
+              0,
+              0,
+              null,
+              null,
+              0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z",
+      "last_processed_session_time": "2020-10-15T08:40:56Z"
+    },
+    "261117:visitors:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.4619990143427957,
+            "confidence_interval": [
+              0.2699289762393622,
+              0.7285368526665077
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 15.0,
+            "conversion_rate": 0.44,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261118": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "dimension",
+              "value": "variationId"
+            },
+            {
+              "type": "metric",
+              "value": "totalEvents"
+            },
+            {
+              "type": "metric",
+              "value": "uniqueEvents"
+            },
+            {
+              "type": "metric",
+              "value": "eventUserConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventSessionConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventValue"
+            }
+          ],
+          "items": [
+            [
+              "771372",
+              22,
+              21,
+              0.62,
+              0.11,
+              0
+            ],
+            [
+              "0",
+              0,
+              0,
+              null,
+              null,
+              0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z",
+      "last_processed_session_time": "2020-10-15T08:40:56Z"
+    },
+    "261118:sessions:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.11420949251296786,
+            "confidence_interval": [
+              0.07347585849376273,
+              0.16777737016291555
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 22.0,
+            "conversion_rate": 0.11,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261119:visitors:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 2.761948330543915,
+            "confidence_interval": [
+              2.245771459286273,
+              3.3493961149823113
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 93.0,
+            "conversion_rate": 2.74,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123:visitors:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 14.88107040531903,
+            "confidence_interval": [
+              13.710015107822462,
+              16.105143249261285
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 504.0,
+            "conversion_rate": 14.87,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261119": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "dimension",
+              "value": "variationId"
+            },
+            {
+              "type": "metric",
+              "value": "totalEvents"
+            },
+            {
+              "type": "metric",
+              "value": "uniqueEvents"
+            },
+            {
+              "type": "metric",
+              "value": "eventUserConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventSessionConversionRate"
+            },
+            {
+              "type": "metric",
+              "value": "eventValue"
+            }
+          ],
+          "items": [
+            [
+              "771372",
+              103,
+              93,
+              2.74,
+              0.52,
+              0
+            ],
+            [
+              "0",
+              0,
+              0,
+              null,
+              null,
+              0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z",
+      "last_processed_session_time": "2020-10-15T08:40:56Z"
+    },
+    "nps": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "dimension",
+              "value": "variationId"
+            },
+            {
+              "type": "metric",
+              "value": "npsDetractors"
+            },
+            {
+              "type": "metric",
+              "value": "npsPassives"
+            },
+            {
+              "type": "metric",
+              "value": "npsPromoters"
+            }
+          ],
+          "items": [
+            [
+              "771372",
+              0,
+              0,
+              1
+            ],
+            [
+              "0",
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261118:visitors:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.6389102565082767,
+            "confidence_interval": [
+              0.4070180207883377,
+              0.9450949345494472
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 21.0,
+            "conversion_rate": 0.62,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "visitors": {
+      "data": {
+        "output": {
+          "definition": [
+            {
+              "type": "metric",
+              "value": "users"
+            }
+          ],
+          "items": [
+            [
+              3390
+            ]
+          ]
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z",
+      "last_processed_session_time": "2020-10-15T08:40:56Z"
+    },
+    "261117:visitors:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.4619990143427957,
+            "confidence_interval": [
+              0.2699289762393622,
+              0.7285368526665077
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 15.0,
+            "conversion_rate": 0.44,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261118:visitors:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.6389102565082767,
+            "confidence_interval": [
+              0.4070180207883377,
+              0.9450949345494472
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 21.0,
+            "conversion_rate": 0.62,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261117:visitors:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 0.4619990143427957,
+              "confidence_interval": [
+                0.2699289762393622,
+                0.7285368526665077
+              ]
+            },
+            "lift": {
+              "median": -99.02078653344944,
+              "confidence_interval": [
+                -99.63495711422104,
+                -79.29970337894281
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 0.47000000000000003
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 15.0,
+            "conversion_rate": 0.44
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123:sessions:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 2.5729738913732443,
+            "confidence_interval": [
+              2.3588030527597583,
+              2.7993818384522497
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 510.0,
+            "conversion_rate": 2.57,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261117:sessions:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.0839803156610563,
+            "confidence_interval": [
+              0.049905013627967135,
+              0.1308835731769125
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 16.0,
+            "conversion_rate": 0.08,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123:sessions:bayesian": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 2.5729738913732443,
+            "confidence_interval": [
+              2.3588030527597583,
+              2.7993818384522497
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 510.0,
+            "conversion_rate": 2.57,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261118:sessions:bayesian:771372": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "median": 0.11420949251296786,
+            "confidence_interval": [
+              0.07347585849376273,
+              0.16777737016291555
+            ]
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 22.0,
+            "conversion_rate": 0.11,
+            "improvement_rate": 0.0
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261118:sessions:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 0.11420949251296786,
+              "confidence_interval": [
+                0.07347585849376273,
+                0.16777737016291555
+              ]
+            },
+            "lift": {
+              "median": -99.75983543133628,
+              "confidence_interval": [
+                -99.90371420363864,
+                -95.32430600232695
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 0.12
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 19846.0,
+            "goal_metric": 22.0,
+            "conversion_rate": 0.11
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    },
+    "261123:visitors:bayesian:0": {
+      "data": {
+        "0": {
+          "campaign_id": "621952",
+          "variation_id": "0",
+          "variation_name": "Original",
+          "is_reference_variation": true,
+          "totals": {
+            "reference_metric": 0.0,
+            "goal_metric": 0.0
+          }
+        },
+        "771372": {
+          "bayesian_data": {
+            "posterior": {
+              "median": 14.88107040531903,
+              "confidence_interval": [
+                13.710015107822462,
+                16.105143249261285
+              ]
+            },
+            "lift": {
+              "median": -69.5637980182109,
+              "confidence_interval": [
+                -84.86093863201995,
+                553.2904129193158
+              ]
+            },
+            "difference_probability": 0.0,
+            "better_than_original": false,
+            "gain_probability": 15.559999999999999
+          },
+          "campaign_id": "621952",
+          "variation_id": "771372",
+          "variation_name": "Variation 1",
+          "is_reference_variation": false,
+          "totals": {
+            "reference_metric": 3390.0,
+            "goal_metric": 504.0,
+            "conversion_rate": 14.87
+          }
+        }
+      },
+      "success": true,
+      "update_time": "2020-10-15T12:27:19.581573Z"
+    }
+  },
+  "success": true,
+  "update_time": "2020-10-15T12:27:19.581573Z"
+}
